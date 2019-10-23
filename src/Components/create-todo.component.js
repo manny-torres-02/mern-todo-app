@@ -17,7 +17,7 @@ export default class EditTodo extends Component {
             todo_priority:'',
             todo_completed:false
         }
-
+    }
         //methods to handle the that can be used to update the state properties. 
         onChangeTodoDescription (e) {
             this.setState({
@@ -56,7 +56,7 @@ export default class EditTodo extends Component {
         })
     }
 
-        }
+        
     render() {
         return (
             <div style={{marginTop: 10}}>
@@ -122,3 +122,4 @@ export default class EditTodo extends Component {
             </div>
         )
     }
+}
