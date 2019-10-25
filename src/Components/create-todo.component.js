@@ -43,7 +43,9 @@ export default class EditTodo extends Component {
             e.preventDefault();
 
             console.log('formSubmitted:');
+            // eslint-disable-next-line no-template-curly-in-string
             console.log('Todo Description: ${this.state.todo_description}');
+            // eslint-disable-next-line no-template-curly-in-string
             console.log('Todo Responsible: ${this.state.todo_responsible}');
             console.log('Todo Priority: $(this.state.todo_priority}');
 
